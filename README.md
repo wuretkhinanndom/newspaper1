@@ -54,7 +54,6 @@ git clone https://github.com/yourusername/newspaper-website.git
 cd newspaper-website
 ````
 
-```
 
 > Just open `home.html` in your browser—no build or server setup required.
 
