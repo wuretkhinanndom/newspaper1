@@ -98,7 +98,7 @@ newspaper-website/
 > Customize the `ad-placeholder.html` to embed your ad services.
 
 ---
-```
+
 
 ## 🤝 Contributing
 
