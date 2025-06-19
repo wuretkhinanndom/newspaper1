@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Times</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 tabindex="0">switch trending</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#news" tabindex="0">News</a></li>
+        <li><a href="#editorials" tabindex="0">Editorials</a></li>
+        <li><a href="#archives" tabindex="0">Archives</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="news" aria-labelledby="news-heading">
+      <header>
+        <h2 id="news-heading" tabindex="0">Daily News</h2>
+      </header>
+      <article aria-labelledby="article1-title">
+        <h3 id="article1-title" tabindex="0">Breaking: Economy Improves in Q2</h3>
+        <p>Latest reports show an uptick in GDP as policies take hold...</p>
+      </article>
+      <article aria-labelledby="article2-title">
+        <h3 id="article2-title" tabindex="0">Local: New Park Opens Downtown</h3>
+        <p>Citizens gather to celebrate the opening of Riverside Park...</p>
+      </article>
+      <footer>
+        <nav aria-label="Pagination">
+          <a href="#" aria-label="Previous Page" tabindex="0">&laquo;</a>
+          <a href="#" aria-label="Page 1" tabindex="0">1</a>
+          <a href="#" aria-label="Page 2" tabindex="0">2</a>
+          <a href="#" aria-label="Next Page" tabindex="0">&raquo;</a>
+        </nav>
+      </footer>
+    </section>
+
+    <aside aria-label="Side Ads and Extras">
+      <section>
+        <h3 tabindex="0">Advertisements</h3>
+        <p>Ad content goes here...</p>
+      </section>
+      <section>
+        <h3 tabindex="0">Author Bio</h3>
+        <p>Written by Jane Doe, senior correspondent...</p>
+      </section>
+    </aside>
+
+    <section id="editorials">
+      <header>
+        <h2 tabindex="0">Editorials</h2>
+      </header>
+      <article>
+        <h3 tabindex="0">Opinion: Education Reform</h3>
+        <p>We believe the new education policy needs revisions...</p>
+      </article>
+    </section>
+
+    <section id="archives">
+      <header>
+        <h2 tabindex="0">Monthly Archives</h2>
+      </header>
+      <table aria-label="Monthly Archives Table" border="1">
+        <thead>
+          <tr>
+            <th scope="col">Month</th>
+            <th scope="col">Top Story</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>May 2025</td>
+            <td>Market hits record highs</td>
+          </tr>
+          <tr>
+            <td>April 2025</td>
+            <td>Election results declared</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="role-switching">
+      <header>
+        <h2 tabindex="0">Simulated Role Switching</h2>
+      </header>
+      <details>
+        <summary tabindex="0">Admin Panel</summary>
+        <p>Settings, moderation tools, and user controls...</p>
+      </details>
+      <details>
+        <summary tabindex="0">Reader Panel</summary>
+        <p>Reading preferences and article history...</p>
+      </details>
+    </section>
+
+    <section id="modal-simulation">
+      <header>
+        <h2 tabindex="0">Modal Simulation</h2>
+      </header>
+      <div style="position: relative;">
+        <div style="position: absolute; top: 20px; left: 20px; background: white; border: 1px solid #ccc; padding: 10px;" aria-modal="true" role="dialog" tabindex="0">
+          <p>This is a simulated modal box.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <header>
+        <h2 tabindex="0">Contact Us</h2>
+      </header>
+      <form aria-label="Contact Form">
+        <fieldset>
+          <legend>Personal Info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required tabindex="0">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required tabindex="0">
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <label for="message">Your message:</label>
+          <textarea id="message" name="message" required tabindex="0"></textarea>
+        </fieldset>
+        <button type="submit" tabindex="0">Submit</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+
+</html>
