@@ -1,4 +1,3 @@
-````markdown
 # 🗞️ Complete Newspaper Website with Archives and Print Layout
 
 A fully functional, HTML-only newspaper website designed to simulate a classic editorial publication. Includes an accessible homepage, article templates, monthly archives with semantic tables, and a print-optimized version.
