@@ -1,4 +1,3 @@
-````markdown
 # 🗞️ Complete Newspaper Website with Archives and Print Layout
 
 A fully functional, HTML-only newspaper website designed to simulate a classic editorial publication. Includes an accessible homepage, article templates, monthly archives with semantic tables, and a print-optimized version.
@@ -55,7 +54,6 @@ git clone https://github.com/yourusername/newspaper-website.git
 cd newspaper-website
 ````
 
-```
 
 > Just open `home.html` in your browser—no build or server setup required.
 
@@ -99,7 +97,7 @@ newspaper-website/
 > Customize the `ad-placeholder.html` to embed your ad services.
 
 ---
-```
+
 
 ## 🤝 Contributing
 
